@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
       inputs:
         environment:
+            type: "environment"
             description: "Environment"
             required: true
             default: dev
